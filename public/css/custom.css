@@ -1,0 +1,7 @@
+body {
+	background-image: url(../img/giftly.png);
+}
+
+.img-responsive {
+	max-height: 400px;
+}

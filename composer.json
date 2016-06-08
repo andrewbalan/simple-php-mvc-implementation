@@ -1,0 +1,20 @@
+{
+    "name": "root/testtask",
+    "description": "simple mvc implementation",
+    "authors": [
+        {
+            "name": "Andrew Balan",
+            "email": "andrew_balan@inbox.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dev\\App\\": "app/",
+            "Dev\\Implementations\\": "vendor/Dev/Implementations",
+            "Dev\\Interfaces\\": "vendor/Dev/Interfaces"
+        },
+        "files": ["app/helpers.php"]
+    }
+}
